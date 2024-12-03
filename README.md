@@ -54,7 +54,7 @@ unzip recipenlg.zip
 
 ### Google Colab (Recommended)
 
-Run the project effortlessly using Google Colab. Click the button below to launch the notebook:
+Run the project effortlessly using Google Colab. Click the button in .ipynb file to launch the notebook
 
 ### Local Execution
 
@@ -86,27 +86,16 @@ Train the recommendation system using the following steps:
 
 4. Save the trained models for inference.
 
-Training scripts are located in the `train_model.py` file
-
 ## Testing and Frontend
   
 
 ### Interactive CLI
 
-Run the script to interact with the system via command line:
+Run the CLI cell to interact with the system via command line.
 
-```
-
-python interactive_cli.py
-
-```
 
 ### Web Interface (Gradio)
 
-Launch the Gradio interface for a user-friendly experience:
+Launch the Gradio cell for a user-friendly experience.
 
-```
 
-python app.py
-
-```
